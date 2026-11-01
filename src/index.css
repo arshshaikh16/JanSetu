@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F6F1E7;
+    color: #1C1917;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@keyframes sandstone-skeleton {
+  0%, 100% {
+    background-color: #E5DEC9;
+  }
+  50% {
+    background-color: #D4CBB4;
+  }
+}
+
+.skeleton-block {
+  animation: sandstone-skeleton 1.6s ease-in-out infinite;
+}
