@@ -62,3 +62,8 @@ npx tsx --test src/utils/civicLogic.test.ts
 - **Known Limitations**:
   - Statutory RTI Section 6(1) drafts and scheme eligibility matches are informational and administrative tools; formal filing still occurs on the respective `.gov.in` portal or via physical submission to the Public Information Officer (PIO).
   - Browser voice dictation (`SpeechRecognition` / `webkitSpeechRecognition`) requires a browser supporting the Web Speech API; in unsupported browsers or sandboxed iFrames, the voice button gracefully loads a sample citizen query into the composer.
+
+## Teammates
+1. Arsh Zahid Shaikh (b25bs1433@iitj.ac.in)
+2. -
+3. -
