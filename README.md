@@ -65,5 +65,5 @@ npx tsx --test src/utils/civicLogic.test.ts
 
 ## Teammates
 1. Arsh Zahid Shaikh (b25bs1433@iitj.ac.in)
-2. -
+2. Rayn Roy (b25bs1276@iitj.ac.in)
 3. -
